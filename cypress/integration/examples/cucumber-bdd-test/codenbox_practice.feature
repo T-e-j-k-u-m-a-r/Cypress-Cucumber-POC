@@ -7,4 +7,5 @@ Feature: Practice functions of the Application
     Given I successfully browse to the Application
     When I click on ourbrand menu
     Then I should see the client Tentoo and Pay4me
+    Then I should see the client Tentoo and Holland
 

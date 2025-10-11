@@ -1,0 +1,12 @@
+{
+    "chromeWebSecurity": true,
+    
+    
+
+
+    "env" :
+    {
+        "url": "http://codenboxautomationlab.com/"
+    }
+
+}

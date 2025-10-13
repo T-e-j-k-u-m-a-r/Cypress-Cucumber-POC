@@ -15,7 +15,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cy:open": "cypress open",
-    "cy:tests": "cypress run"
+    "cy:tests": "cypress run",
+    "validate:names": "node ./tools/validate-naming.js"
   },
   "author": "sariful",
   "license": "ISC",

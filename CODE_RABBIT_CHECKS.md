@@ -17,9 +17,9 @@ This document describes the automated naming and traceability checks that run as
 ## What is validated (detailed rules)
 
 - 🏷️ Feature filenames
-  - Rule: Every `.feature` filename must start with the prefix `codenbox_`.
+  - Rule: Every `.feature` filename must start with the prefix `brisker_`.
   - Why: Groups feature files consistently and makes their intent obvious.
-  - Example failure: `cypress/integration/.../some.feature: feature filename must start with 'codenbox_'`
+  - Example failure: `cypress/integration/.../some.feature: feature filename must start with 'brisker_'`
 
 - 🧾 Feature file header
   - Rule: The first few lines of each `.feature` must include a comment containing a feature ID or userstory ID. Recognized tokens include `feat`, `feature`, `us`, `userstory`, `US`, `FEAT` and the comment must include an ID (for example: `# FEAT-123` or `# US-45`).

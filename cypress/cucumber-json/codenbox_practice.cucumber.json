@@ -3,7 +3,7 @@
     "description": "    As a user i am enable to use all the functions in practice page.",
     "keyword": "Feature",
     "name": "Practice functions of the Application",
-    "line": 1,
+    "line": 3,
     "id": "practice-functions-of-the-application",
     "tags": [],
     "uri": "codenbox_practice.feature",
@@ -11,7 +11,7 @@
       {
         "id": "practice-functions-of-the-application;as-a-user,-i-should-able-to-see-the-title-of-the-page",
         "keyword": "Scenario",
-        "line": 6,
+        "line": 7,
         "name": "As a user, i should able to see the title of the page",
         "tags": [],
         "type": "scenario",
@@ -19,39 +19,31 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 7,
+            "line": 8,
             "name": "I successfully browse to the Application",
             "result": {
-              "status": "failed",
-              "duration": 2919000000,
-              "error_message": "TypeError: ErrorConstructor is not a constructor\n    at Object.captureUserInvocationStack (https://www.briskergroup.nl/__cypress/runner/cypress_runner.js:179062:20)\n    at $Cy.cy.<computed> [as writeFile] (https://www.briskergroup.nl/__cypress/runner/cypress_runner.js:171473:49)\n    at Context.runnable.fn (https://www.briskergroup.nl/__cypress/runner/cypress_runner.js:171735:21)\n    at callFn (https://www.briskergroup.nl/__cypress/runner/cypress_runner.js:105099:21)\n    at Hook.../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://www.briskergroup.nl/__cypress/runner/cypress_runner.js:105086:7)\n    at https://www.briskergroup.nl/__cypress/runner/cypress_runner.js:177502:28\n    at PassThroughHandlerContext.finallyHandler (https://www.briskergroup.nl/__cypress/runner/cypress_runner.js:7319:23)\n    at PassThroughHandlerContext.tryCatcher (https://www.briskergroup.nl/__cypress/runner/cypress_runner.js:10765:23)\n    at Promise._settlePromiseFromHandler (https://www.briskergroup.nl/__cypress/runner/cypress_runner.js:8700:31)\n    at Promise._settlePromise (https://www.briskergroup.nl/__cypress/runner/cypress_runner.js:8757:18)\n    at Promise._settlePromise0 (https://www.briskergroup.nl/__cypress/runner/cypress_runner.js:8802:10)\n    at Promise._settlePromises (https://www.briskergroup.nl/__cypress/runner/cypress_runner.js:8882:18)\n    at _drainQueueStep (https://www.briskergroup.nl/__cypress/runner/cypress_runner.js:5472:12)\n    at _drainQueue (https://www.briskergroup.nl/__cypress/runner/cypress_runner.js:5465:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://www.briskergroup.nl/__cypress/runner/cypress_runner.js:5481:5)"
+              "status": "passed",
+              "duration": 6036000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 8,
+            "line": 9,
             "name": "I click on ourbrand menu",
             "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 9,
-            "name": "I should see the client Tentoo and Pay4me",
-            "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 148000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 10,
-            "name": "I should see the client Tentoo and Holland",
+            "name": "I should see the client Tentoo and Pay4me",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 70000000
             }
           }
         ]

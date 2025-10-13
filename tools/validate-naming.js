@@ -27,11 +27,11 @@ walk(repoRoot, (file) => {
   const name = path.basename(file);
   const ext = path.extname(file).toLowerCase();
 
-  // 1) Step definition files: must contain 'step' and start with lowercase
+  // 1) Step definition files: must contain 'Steps' (capital S) and start with lowercase
   if (ext === '.js' && rel.includes('cypress/integration')) {
-    if (/steps?\.js$/i.test(name) || /step/i.test(name)) {
-      if (!/step/.test(name)) {
-        errors.push(`${rel}: step definition filename must contain the word 'step'`);
+    if (/Steps?\.js$/.test(name) || /Steps/.test(name)) {
+      if (!/Steps/.test(name)) {
+        errors.push(`${rel}: step definition filename must contain the word 'Steps' (capital S)`);
       }
       const first = name.charAt(0);
       if (first !== first.toLowerCase()) {

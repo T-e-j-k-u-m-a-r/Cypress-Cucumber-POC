@@ -4,7 +4,7 @@ const path = require('path');
 
 const repoRoot = path.resolve(__dirname, '..');
 
-const allowedFeaturePrefix = 'codenbox_';
+const allowedFeaturePrefix = 'brisker_';
 
 function walk(dir, cb) {
   const entries = fs.readdirSync(dir, { withFileTypes: true });

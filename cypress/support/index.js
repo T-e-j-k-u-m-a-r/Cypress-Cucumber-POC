@@ -19,6 +19,8 @@ import './commands'
 require('cypress-failed-log')
 // Enable cy.xpath() command
 require('cypress-xpath')
+// Enable cypress-real-events for real user interactions
+import 'cypress-real-events/support'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

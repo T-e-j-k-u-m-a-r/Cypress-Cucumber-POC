@@ -19,6 +19,27 @@ class PracticePage{
         cy.xpath(`//h2[normalize-space()='Pay for People']`).should('contain.text', 'Pay for People')
        
     }
+    
+    static verifyAppURLconsistsOfEnLanguage(){
+   
+
+    cy.url().should('include', '/en/')
+    cy.log(`The url contains the language code - en`)
+    }
+
+    static verifyAppURLconsistsOfDomainBriskergroup(){
+   
+
+    cy.url().should('include', 'briskergroup')
+    cy.log(`The url contains the domain - briskergroup`)
+    }
+    
+
+
+    static verifyThePresenceOfFourMenuOptions(){
+        cy.get(':nth-child(1) > .mainmenu__link').should('contain.text', 'NL')
+        
+    }
 
    
 }

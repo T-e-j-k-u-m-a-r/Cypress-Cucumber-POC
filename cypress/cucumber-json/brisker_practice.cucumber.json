@@ -6,7 +6,7 @@
     "line": 3,
     "id": "practice-functions-of-the-application",
     "tags": [],
-    "uri": "codenbox_practice.feature",
+    "uri": "brisker_practice.feature",
     "elements": [
       {
         "id": "practice-functions-of-the-application;as-a-user,-i-should-able-to-see-the-title-of-the-page",
@@ -22,8 +22,8 @@
             "line": 8,
             "name": "I successfully browse to the Application",
             "result": {
-              "status": "passed",
-              "duration": 233000000
+              "status": "undefined",
+              "duration": 66000000
             }
           },
           {
@@ -32,8 +32,7 @@
             "line": 9,
             "name": "I click on ourbrand menu",
             "result": {
-              "status": "passed",
-              "duration": 73000000
+              "status": "skipped"
             }
           },
           {
@@ -42,8 +41,7 @@
             "line": 10,
             "name": "I should see the client Tentoo and Pay4me",
             "result": {
-              "status": "passed",
-              "duration": 21000000
+              "status": "skipped"
             }
           },
           {
@@ -52,8 +50,7 @@
             "line": 11,
             "name": "Application url should have the language code en",
             "result": {
-              "status": "passed",
-              "duration": 13000000
+              "status": "skipped"
             }
           },
           {
@@ -62,8 +59,7 @@
             "line": 12,
             "name": "Application url should have the domain as briskergroup",
             "result": {
-              "status": "passed",
-              "duration": 14000000
+              "status": "skipped"
             }
           }
         ]

@@ -1,0 +1,21 @@
+name: Validate naming rules
+
+on:
+  pull_request:
+    paths:
+      - '**/*.js'
+      - '**/*.feature'
+
+jobs:
+  validate-names:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '16'
+      - name: Install deps
+        run: npm install
+      - name: Run naming validation
+        run: npm run validate:names
